@@ -1,3 +1,6 @@
 {
-    "halfmasking":".(.)"
+    "halfmasking":{
+        "regex":".(.)",
+        "replace":"$1*"
+    }
 }
